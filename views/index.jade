@@ -1,0 +1,15 @@
+extends layout
+block content
+  .menu
+    div#brand
+      a(href="#") Jonas Duri
+    #contact
+      a.button(href="#") contact  
+  .content.about
+    :markdown
+      Hi, my name is **Jonas**. I'm a developer from Düseldorf, Germany working at [OYGO GmbH](http://www.oygo.com "OYGO GmbH").
+      I Am interested in modern Javascript applications using  frontend frameworks like [Angularjs](https://angularjs.org/ "Angularjs"), [jQuery](https://jquery.com/ "jQuery").
+      I’m an enthusiast of API driven webapplikations and taskrunners like Gulp and Grunt. If you would like to learn more about me or are interested in collaborating, feel free to [contact me](mailto:jonas.duri@gmail.com "jonas.duri@gmail.com").
+  #blog-wrapper
+    .content
+      include _layouts/article.jade    
